@@ -23,21 +23,21 @@
     }
 </style> 
 
-<body style="margin : 0px; overflow: hidden;">
+<body style='margin : 0px; overflow: hidden;'>
 
     <div class="arjs-loader">
         <divL>Loading, please wait...</divL>
     </div>
 
     <a-scene
-        vr-mode-ui="enabled: false;"
+        vr-mode-ui='enabled: false;'
         renderer="logarithmicDepthBuffer: true;"
         gesture-detector
         embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'
         >
 
         <a-nft
-            type="nft"
+            type='nft'
             url="https://arjs-cors-proxy.herokuapp.com/https://github.com/jessikka12/carvr/master/adultcave"
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
             >
